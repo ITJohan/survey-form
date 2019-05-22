@@ -1,0 +1,143 @@
+body {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: Arial;
+  color: white;
+}
+
+select, textarea, input[type="text"], input[type="number"], input[type="email"] {
+  width: 200px;
+  border: 0;
+}
+
+textarea {
+  height: 100px;
+}
+
+#title {
+  text-align: center;
+}
+
+button {
+  background-color: #203A43;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
+  padding: 10px 10px 20px 10px;
+  font-family: Arial;
+  background: #2c5364;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 20px;
+}
+
+.left {
+  justify-self: right;
+}
+
+form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "a a"
+    "b c"
+    "d e"
+    "f g"
+    "h i"
+    "j k"
+    "l m"
+    "n o"
+    "p q"
+    "x r";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  align-items: center;
+}
+
+#description {
+  font-size: 1.5em;
+}
+
+.grid-1 {
+  grid-area: a;
+  text-align: center;
+}
+
+.grid-2 {
+  grid-area: b;
+}
+
+.grid-3 {
+  grid-area: c;
+}
+
+.grid-4 {
+  grid-area: d;
+}
+
+.grid-5 {
+  grid-area: e;
+}
+
+.grid-6 {
+  grid-area: f;
+}
+
+.grid-7 {
+  grid-area: g;
+}
+
+.grid-8 {
+  grid-area: h;
+}
+
+.grid-9 {
+  grid-area: i;
+}
+
+.grid-10 {
+  grid-area: j;
+}
+
+.grid-11 {
+  grid-area: k;
+}
+
+.grid-12 {
+  grid-area: l;
+}
+
+.grid-13 {
+  grid-area: m;
+}
+
+.grid-14 {
+  grid-area: n;
+}
+
+.grid-15 {
+  grid-area: o;
+}
+
+.grid-16 {
+  grid-area: p;
+}
+
+.grid-17 {
+  grid-area: q;
+}
+
+.grid-18 {
+  grid-area: r;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1 id="title">Survey Form</h1>
+  <div class="container">
+    <div class="grid-1">
+      <p id="description">
+        Tell us about your driving experience
+      </p>
+    </div>
+    <form id="survey-form">
+      
+      <div class="grid-2 left">
+        <label id="name-label" for="name">*Name:</label>
+      </div>
+      <div class="grid-3 right">
+        <input type="text" id="name" placeholder="Enter your name..." required>
+      </div>
+  
+      <div class="grid-4 left">
+        <label id="number-label" for="number">*Age:</label>
+      </div>
+      <div class="grid-5 right">
+        <input type="number" id="number" placeholder="Enter your age..." min="1" max="130" required>
+      </div>
+  
+      <div class="grid-6 left">
+        <label id="email-label" for="email">*E-mail:</label>
+      </div>
+      <div class="grid-7 right">
+        <input type="email" id="email" placeholder="Enter your e-mail adress..." required>
+      </div>
+      
+      <div class="grid-8 left">
+        <label id="dropdown-label" for="dropdown">Current role:</label>
+      </div>
+      <div class="grid-9 right">
+        <select id="dropdown">
+          <option value="">------Please choose a role------</option>
+          <option value="student">Student</option>
+          <option value="partTimeWorker">Part-time worker</option>
+          <option value="fullTimeWorker">Full-time worker</option>
+          <option value="retired">Retired</option>
+        </select>
+      </div>
+      
+      <div class="grid-10 left">
+        <p>How was your driving experience?</p>
+      </div>
+      <div class="grid-11 right">
+        <span><input type="radio" id="expGreat" value="expGreat" name="experience" checked><label for="expGreat">Great</label></span>
+        <span><input type="radio" id="expOk" value="expOk" name="experience"><label for ="expOk">Ok</label></span>
+        <span><input type="radio" id="expAverage" value="expAverage" name="experience"><label for ="expAverage">Average</label></span>
+        <span><input type="radio" id="expBad" value="expBad" name="experience"><label for ="expBad">Bad</label></span>
+      </div>
+      
+      <div class="grid-12 left">
+        <p>What did you think was good?</p>
+      </div>
+      <div class="grid-13 right">
+        <span><input type="checkbox" id="checkInstructor" value="checkInstructor" name="like"><label for="checkInstructor">The instructor</label></span>
+        <span><input type="checkbox" id="checkCar" value="checkCar" name="like"><label for="checkCar">The car</label></span>
+        <span><input type="checkbox" id="checkPrice" value="checkPrice" name="like"><label for="checkPrice">The price</label></span>
+        <span><input type="checkbox" id="checkAccessability" value="checkAccessability" name="like"><label for="checkAccessability">The accessability</label></span>
+      </div>
+      
+      <div class="grid-14 left">
+        <p>Would you recommend us?</p>
+      </div>
+      <div class="grid-15 right">
+        <span><input type="radio" id="recYes" value="recYes" name="recommend" checked><label for="recYes">Yes</label></span>
+        <span><input type="radio" id="recNo" value="recNo" name="recommend" checked><label for="recNo">No</label></span>
+      </div>
+      
+      <div class="grid-16 left">
+        <label id="other-label" for="other">Other comments:</label>
+      </div>
+      <div class="grid-17 right">
+        <textarea id="other"></textarea>
+      </div>
+      
+      <div class="grid-18">
+        <button id="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
